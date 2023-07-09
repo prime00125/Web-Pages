@@ -1,0 +1,675 @@
+*{
+    margin-left: 0%;
+    margin-bottom: 0%;;
+    margin-right: 0%;
+    margin-top: 0%;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#top{
+    text-align: center;
+    overflow-x: hidden;
+}
+#navbar{
+    display:flex;
+    height: 70px;
+    background-color:antiquewhite;
+    justify-content: space-between;
+}
+.logoPic{
+width:17%;
+padding-left:4%;
+}
+.attr{
+    width:44%;
+        color:rgb(43, 43, 82);;
+        font-size: 18px;
+        font-weight:bolder;
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        padding-right: 5%;
+}
+/* end of navbar style */
+#main{
+    background-color:rgb(43, 43, 82);
+    display: flex;
+    justify-content: space-around;
+
+}
+.mainImg{
+    display:inline-block;
+    height:500px;
+
+}
+.M{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left:10%;
+}
+.MainData{
+    color: white;
+    text-align: left;  
+    font-size: 60px;
+    font-weight: 700;
+}
+.subScript{
+    color: aliceblue;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+/* end of page2 style */
+#aboutUs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:4%;
+
+
+
+}
+.statments{
+    color:red;
+    font-size: 25px;
+}
+.aPage{
+    color:rgb(43, 43, 82);
+    font-size: 300%;
+}
+.D{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+.diagram{
+        display: flex;
+        flex-direction: column;
+        width:30%;
+        align-items: center;
+        text-align: center;
+        
+}
+#d1{
+    position: relative; left:5%;
+}
+#d2{
+    position: relative; top:45%
+}
+#d3{
+    position: relative; right:5%
+}
+.icon{
+    background-color: rgb(43, 43, 82);
+    border-radius: 60px 60px 60px 60px;
+    padding: 30px;
+
+}
+
+.diagramText{
+    color:rgb(43, 43, 82);
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.par{
+
+    color:black;
+    font-size: medium;
+    font-weight: 400;
+}
+/* end of page 2 part 2 style */
+
+#page3{
+    background-color:  rgb(245, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top:3%;
+    padding-bottom:5%;
+}
+.page3Img{
+    width: 100%;
+}
+.topPar01{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    left:50px;
+    color:rgb(43, 43, 82); 
+}
+#topLeft{
+    font-size:larger;
+    position: relative;
+    left:50px;
+
+}
+.topPar div{
+    position: relative;
+                left:20%; width:400px
+}
+.P3right{
+    display:flex;
+    margin-left: 100px;
+    
+}
+.P3Left{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading_number{
+    width: 13%;
+    display: flex;
+    position: relative;
+    top:30px;
+    
+}
+.para001{
+    border:1px solid black;
+    background-color: white;
+    border-radius:10px;
+    z-index:1;
+    position: relative;
+    height: 150px;
+    width:60%;
+    left:30px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    
+    
+}
+.para001_head{
+    color:rgb(36, 36, 118);
+}
+
+
+/* end of page 3 */
+#page4{
+    color:rgb(36, 36, 118);
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+}
+.jobs{
+    border-radius: 60px 60px 60px 60px;
+    border:1px solid wheat;
+    background-color:white;
+    padding: 10px;
+}
+.box{
+    width:240px;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 4px;
+    padding-top: 3%;
+    display: inline-block;
+    border: 2px solid rgb(238, 216, 216);
+    margin-right: 30px;
+    margin-bottom:30px;
+    font-size: larger;
+
+}
+.box:hover{
+    background-color: rgb(36, 36, 118);
+    color:white;
+}
+
+
+/* end of page 4 */
+#page5{ 
+    height: 450px;
+    background-color: rgb(245, 228, 228); 
+    text-align: center;
+    padding-top:50px
+    
+}
+.P5Box{
+    border:2px solid wheat;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 430px;
+    font-size: larger;
+    background-color: aliceblue; 
+    margin-left: 30px;
+
+
+
+}
+.arrows{
+ width:10%;
+ height: 6%;
+ position: relative;
+ left:37%; 
+}
+.testImg{
+        display: inline-block;
+        position: relative;
+        bottom: 70px;
+        right: 120px;
+}
+.P5Para{
+    justify-content: left;
+}
+.scroll{
+    display: flex;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    height: 270px;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 0.5em;
+}
+.scroll::-webkit-scrollbar-track{
+    background: transparent;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background: transparent;
+}
+.carousel{
+    position: relative;
+    top:40px;
+}
+/*page 6 starting */
+#Page6{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: rgb(36, 36, 118);
+    color:whitesmoke;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Page6Img{
+    margin-top:40px;
+        height:35%;
+}
+/* END OF PAGE 6 */
+
+.page7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:150px 25px 100px 25px;
+
+}
+.lastImg{
+    width: 200%;
+}
+.page7b{
+    width:44%;
+    position: relative;
+    left:6%;
+
+}
+.page7a{
+    width:20%;
+}
+.page7Para{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.a1{
+    color:red;
+            font-size: larger; font-weight: bolder; 
+            padding-bottom: 23px;
+}
+.a2{
+    color:rgb(36, 36, 118);
+    font-size: 40px;font-weight: bolder;padding-bottom: 20px;
+        margin-bottom: 5px;
+}
+
+.subpara{
+    padding-left: 25px;
+}
+
+.move{
+    position: relative;
+    height: 130px;
+}
+.move .Lside{
+    position: absolute;
+    left: 0px;
+    font-size: 17px;
+}
+
+.move .Rside{
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+}
+
+.Z{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.plus{
+    height:20px;
+}
+.line{
+    position: relative;
+    border:1px solid antiquewhite;
+}
+.Page7icon{
+    width:min-content;
+    padding-left: 70%;
+}
+/* END OF PAGE 7 */
+
+#Page8{
+    background-color: antiquewhite;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.part1{
+    margin-top: 2%;
+    width:17%;
+}
+.lastLogo{
+    width:80%;
+    position: relative;
+    right:20px; 
+    padding-bottom:4px;     
+}
+
+
+.part1para{
+    font-weight: 600;
+    padding-bottom:20px;
+}
+#socialicons{
+    font-size: 30px;
+}
+.part{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    text-align:left;
+    margin-top:2%;
+
+}
+.page8head{
+    color: rgb(36, 36, 118);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.part2data{
+    color:rgb(36, 36, 118);
+    font-weight:500  ;
+}
+.phone{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    bottom:6%;
+}
+.mail{
+    position: relative;
+    bottom: 20px;
+    width: 30px;
+    height: 25px;
+}
+
+#Page8 i{
+    font-size: 30px; margin-right: 20px;
+}
+
+.part3data{
+    position: relative;
+    bottom: 50px;
+    left:50px;
+}
+
+.location{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom:6%;
+}
+.part4data{
+    position: relative;
+    bottom:50px;
+    left:40px;
+
+}
+#climax{
+    height:60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background-color: rgb(43, 43, 82);
+}
+
+/* end of  styling  */
+
+
+/* for TABLET */
+@media screen and (min-width:761px) and (max-width:1023px)
+{
+    /* PAGE 1 */
+    *{
+        margin-right: 0%;
+    }
+    .logoPic{
+        position: relative;
+        height: 50px;
+        top:10px;
+    }
+    .attr{
+        width:40%;
+        font-size: small;
+    }
+    .MainData{
+        font-size: 30px;
+    }
+    .subScript{
+        font-size: 15px;
+        width: 85%;
+    }
+    .mainImg{
+        width: 60%;
+        height: 60%;
+    }
+    /* END OF PAGE1 */
+
+    .topPar{
+        font-size: 10px;
+    }
+    .topPar01{
+        font-size: 30px;
+    }
+    #topLeft{
+        width:55%;
+    }
+    .P3right {
+            display: flex;
+            margin-left: 50px;
+    }
+    .para001{
+        font-size: 10px;
+        height: 100px;
+    }
+    /* End of page 3 */
+
+    .P5Para{
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+    /* End of page 5 */
+    #Page6 {
+        font-size: 180%;
+    }
+    .Page6Img{
+        width: 40%;
+        height: 30%;
+        position: relative;
+        bottom:20px;
+    }
+    /* end of page 6 */
+
+        /* PAGE 7 */
+    .page7{
+        height: 150px;
+    }
+
+        .page7b p{
+            font-size: 100%;
+        }
+        .Lside p{
+            font-size: 70%;
+        }
+        .Z p{
+            font-size:70%;
+        }
+        .Z img{
+            width: 10px;
+            height: 10px;
+        }
+
+        .Page7icon{
+
+            width: 40%;
+        }
+        .page7Para{
+            margin-bottom: 2px;
+        }
+         /* End of page 7 */
+
+         #Page8{
+            height: 250px;
+         }
+         #Page8 div{
+            font-size: small;
+         }
+         #Page8 i{
+            font-size: 19px;
+         }
+         #Page8 p{
+            font-size: 12px;
+         }
+         #Page8 .lastLogo{
+                width:110%;
+         }      
+}
+
+/* FOR MOBILE */
+@media screen and (max-width:760px){
+
+    .M{
+        position: relative;
+        left:0px;
+    }
+    #main{
+        display: inline-block;
+    }
+    .attr{
+        font-size: 10px;
+    }
+    .MainData{
+        font-size: 40px;
+    }
+    .mainImg{
+    width:50px;
+    }
+    .subScript{
+        width:50px;
+    }
+
+    /* END OF PAGE 1 */
+
+    #aboutUs{
+        font-size:10px;
+    }
+
+    .D{
+        display: inline-block;
+        height: 0px;
+        
+    }
+    .diagram .par{
+        font-size:10px;
+    }
+    /* END of PAGE 2 */
+
+    #page3{
+    display: inline-block;
+    align-items: center;
+    }
+    .topPar div{
+        position: relative;
+        left:0px;
+        width:0px
+    }
+    
+    .topPar01{
+        font-size: 10px;
+    }
+    #topLeft{
+        width: 27%;
+        font-size:20px;
+    }
+
+    /* END OF PAGE 3 */
+
+    .P5Box {
+        border: 2px solid wheat;
+        border-radius: 20px 20px 20px 20px;
+        min-width: auto;
+        font-size: larger;
+        background-color: aliceblue;
+        margin-left: 30px;
+    }
+    /* PAGE 6 */
+    #Page6{
+        font-size:10px;
+    }
+    .Page6Img{
+        width:30%;
+        height: 20%;
+    }
+    /* END OF PAGE 6 */
+    /* PAGE 7 */
+    .Page7icon{
+            position: relative;
+            right:90%;
+    }
+    /* END OF PAGE 7 */
+    
+    /* PAGE 8 */
+    #Page8{
+        display:inline-block
+    }
+
+}
+
+
+
+
+

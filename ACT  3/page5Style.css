@@ -1,0 +1,368 @@
+* {
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.Navleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.NavRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.signup {
+    font-size: small;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    width: 60px;
+    border-radius: 40px 40px 40px 40px;
+    height: 20px;
+}
+
+/* END OF NAVBAR */
+
+.banner1 {
+    width: 100%;
+}
+
+.com1 {
+    background-color: #F9F9F9;
+}
+
+.com1 p {
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-size: 50px;
+    bottom: 240px;
+    color: white;
+}
+
+/* END OF COM1 */
+.com2MainText {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #F9F9F9;
+    margin-top: 10px;
+    text-align: center;
+    width: 50px;
+    border: 2px solid black;
+}
+.card1{
+    background-color: #F9F9F9;
+    display:flex;
+    align-items: center;
+    padding-top: 2%;
+    justify-content: center;
+}
+.c1left{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    width:35%;
+    margin-right:40px;
+
+}
+.c1mainImg{
+    width:80%;
+}
+.c1subImg{
+    width:50%;
+    position: relative;
+    bottom: 140px;
+    right:55%;
+}
+.c1right{
+    width:40%;
+    height: 20%;
+    position: relative;
+    bottom:100px;
+}
+
+/* END OF COMP 2 */
+
+/* COM 3 */
+.com3{
+    background-color: #F9F9F9;
+}
+.com3MainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:5%;
+}
+.c3card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ccenter{
+    display:flex;
+}
+.verLine{
+    border:2px solid black;
+    height: 200px;
+}
+.left{
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    right:20px;
+    top:20px;
+}
+.right{
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    top:20px;
+}
+.round{
+    width:8px;
+    height: 8px;
+    border:4px solid black;
+    border-radius:10px 10px 10px 10px;
+    position: relative;
+    right:10px;
+    background-color: white;
+    top:40px;
+}
+
+.para{
+    position: relative;
+    width:30%;
+    top:20px;
+}
+
+.verLineLast{
+    border:2px solid black;
+    height: 100px;
+}
+.c3card1Last{
+    
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15%;
+    justify-content: space-evenly;
+}
+/* END OF CARD 3 AND END OF COM 3 */
+/* FOotter */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.fpart1 {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    width: 15%;
+}
+.section2 {
+    width: 20%;
+    text-align: center;
+}
+.section2 i{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.section3 {
+    display: flex;
+    flex-direction:column;
+    width: 15%;
+    text-align: left;
+}
+.section3 p{
+    position: relative;
+    bottom: 20px;
+    left:30px;
+}
+
+.google{
+    margin-right: 20px;
+}
+
+.limited{
+    color:grey;
+}
+/* END OF laptop screen CSS */
+
+/* TABLET SCREEN */
+@media screen and (min-width:761px) and (max-width:1023px){
+
+     /* NAVBAR */
+     .Navleft{
+        font-size: 10px;
+    }
+
+    .NavRight{
+        font-size: 10px;
+    }
+    .signup{
+        width:50px;
+        font-size: 12px ;
+    }
+
+    /* END OF NAVBAR */
+
+    .com1 p{
+        bottom:150px;
+    }
+
+    /* END OF COM 1 */
+    .card1{
+        padding-top:10%;
+    }
+    .c1right{
+        bottom:70px;
+        font-size:10px;
+    }
+    /* END OF COM 2 */
+    .para{
+        font-size:10px;
+    }
+    .left{
+        top:30px;
+        font-size:20px;
+    }
+    .right{
+        font-size: 20px;
+        top:30px;
+    }
+    /* FOOTER */
+.fpart1{
+    font-size: 10px;
+}
+.section2 i{
+    font-size: 17px;
+}
+.playstore img{
+    width:20%;
+}
+.limited{
+    font-size: 13px;
+}
+/* END OF FOOTER */
+}
+
+@media screen and (max-width:760px){
+    
+    /* NAVBAR */
+     .Navleft{
+        
+        font-size: 8px;
+      
+    }
+    .Yozoi{
+        width:40px;
+    }
+
+    .NavRight{
+        font-size: 8px;
+       
+    }
+    .dots{
+        width:50%;
+    }
+    .signup{
+      
+        font-size: 8px ;
+    }
+
+    /* END OF NAVBAR */
+
+    .com1 p{
+        bottom:70px;
+        font-size: 20px;
+    }
+
+    /* END OF COM 1 */
+
+    .card1{
+        padding-top:5%;
+    }
+    .c1right{
+        bottom:30px;
+        font-size:5px;
+    }
+    .c1subImg{
+        bottom:30px;
+    }
+    /* END OF COM 2 */
+    .para{
+        font-size:7px;
+    }
+    .left{
+        top:40px;
+        font-size:10px;
+    }
+    .right{
+        font-size: 10px;
+        top:40px;
+    }
+    /* END OF COM 3 */
+
+    /* FOOTER */
+.fpart1{
+    font-size: 7px;
+}
+.fpart2 img{
+    margin-top: 20px;
+} 
+.section2 i{
+    font-size: 19px;
+}
+.playstore img{
+    width:25%;
+}
+.limited{
+    font-size: 10px;
+}
+/* END OF FOOTER */
+}
+/* END OF MOBILE SCREEN */

@@ -1,0 +1,751 @@
+* {
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.Navleft {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.NavRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.signup {
+    font-size: small;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    width: 60px;
+    border-radius: 40px 40px 40px 40px;
+    height: 20px;
+}
+
+/* END OF NAVBAR */
+.banner1 {
+    width: 100%;
+}
+
+.com1 {
+    background-color: #F9F9F9;
+}
+
+.com1 p {
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-size: 50px;
+    bottom: 240px;
+    color: white;
+}
+
+/* END OF COM1 */
+.com2MainText {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #F9F9F9;
+    margin-top: 10px;
+    text-align: center;
+    width: 50px;
+    border: 2px solid black;
+}
+
+/* END OF COM2 */
+.com3 {
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.c1right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c1left {
+    width: 40%;
+
+}
+
+.black1 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px 12px 12px 12px;
+    position: relative;
+    top: 50px;
+    right: 90px;
+    z-index: +1;
+}
+
+.c1img {
+    width: 60%;
+    position: relative;
+    top: 25px;
+    border: 8px solid white;
+    border-radius: 13px 13px 13px 13px;
+}
+
+.c1logobox {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    z-index: +1;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    position: relative;
+    right: 90px;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+.c1logobox p {
+    font-weight: bold;
+
+}
+
+.c1logo {
+    width: 50px;
+
+}
+
+/* END OF CARD 1 */
+.arrow1 {
+    width: 90%;
+    display: flex;
+    z-index: +1;
+    position: relative;
+
+}
+
+/* CARD2 */
+.card2 {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.c2left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.black2 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px 12px 12px 12px;
+    position: relative;
+    right: 31%;
+    display: flex;
+    bottom: 20px;
+}
+
+.aiimg {
+    width: 80%;
+    border: 7px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.c2logobox {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    z-index: +1;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px whitesmoke;
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+}
+
+.c2logobox img {
+    width: 50%;
+}
+
+
+.c2right {
+    width: 30%;
+
+}
+
+/* END OF CARD 2 */
+.arrow2 {
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+/* CARD 3 */
+.black3 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px 12px 12px 12px;
+    position: relative;
+    display: flex;
+    left: 30%;
+}
+
+.card3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c3left {
+    width: 40%;
+}
+
+.c3right {
+    width: 35%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.safety1 {
+    border: 7px solid white;
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+}
+
+.c3logoBox {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    z-index: +1;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px whitesmoke;
+    position: relative;
+    bottom: 100px;
+    right: 15%;
+}
+
+.c3logoBox img {
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+/* END OF CARD3 */
+
+/* CARD 4 */
+.c4Head {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.c4para {
+    width: 50%;
+}
+
+.c4boxbackground {
+    display: flex;
+    justify-content: center;
+
+}
+
+.number {
+    background-color: black;
+    width: 20%;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.c4Box {
+    border: 3px solid white;
+    width: 20%;
+    box-shadow: 4px 4px 4px 4px whitesmoke;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+
+/* END OF CARD 4 */
+/* CARD5 */
+.card5 {
+    margin-top: 5%;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 5%;
+}
+
+
+/* BOX1 */
+.part1 {
+    width: 26%;
+    margin: 10px;
+}
+
+.service {
+    width: 100%;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.minus {
+    width: 30px;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+    border: 1px solid
+}
+
+.c5box p {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 50px;
+    left: 20px
+}
+
+/* BOX 2 */
+
+.card5part2 {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card5part3 {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+
+/* END OF CARD 5 */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.fpart1 {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    width: 15%;
+}
+.section2 {
+    width: 20%;
+    text-align: center;
+}
+.section2 i{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.section3 {
+    display: flex;
+    flex-direction:column;
+    width: 15%;
+    text-align: left;
+}
+.section3 p{
+    position: relative;
+    bottom: 20px;
+    left:30px;
+}
+
+.google{
+    margin-right: 20px;
+}
+
+.limited{
+    color:grey;
+}
+/* END OF CSS */
+
+
+/* TABLET screen */
+
+@media screen and (min-width:761px) and (max-width:1023px){
+
+    /* NAVBAR */
+    .Navleft{
+        font-size: 10px;
+    }
+
+    .NavRight{
+        font-size: 10px;
+    }
+    .signup{
+        width:50px;
+        font-size: 14px ;
+    }
+
+    /* END OF NAVBAR */
+
+    .com1 p{
+        bottom:150px;
+    }
+
+    /* END OF COM 1 */
+
+    
+.black1 {
+    width: 100px;
+    height: 40px;
+}
+.c1logobox{
+    height: 50px;
+    font-size:9px;
+}
+.c1logo{
+    width:40px;
+}
+.c1left{
+    font-size: 12px;
+}
+/* END OF CARD 1 */
+
+.arrow1{
+    width:50%;
+    left:100px;
+}
+.black2{
+    width: 100px;
+    height: 40px;
+}
+.c2logobox{
+    height: 50px;
+    font-size:9px;
+}
+.c2right{
+    font-size: 10px;
+    width:50%;
+}
+
+/* END OF CARD 2 */
+.arrow2{
+    width:70%;
+    left:120px;
+}
+.black3{
+    width: 100px;
+    height: 40px;
+}
+.c3logoBox{
+    bottom:40px;
+    height: 50px;
+    font-size:9px;
+}
+.c3left{
+    font-size: 10px;
+    width:50%;
+}
+/* END OF CARD 3 */
+
+/* CARD 5 */
+.c5box p{
+    font-size: 13px;
+}
+.b1{
+    font-size:11px;
+}
+/* END OF CARD 5 */
+
+/* FOOTER */
+.fpart1{
+    font-size: 10px;
+}
+.section2 i{
+    font-size: 17px;
+}
+.playstore img{
+    width:20%;
+}
+.limited{
+    font-size: 13px;
+}
+/* END OF FOOTER */
+}
+
+/* END OF TABLET SCREEN */
+
+@media screen and (min-width:320px) and (max-width:760px){
+*{
+    margin-right: 0%;
+}
+    
+    /* NAVBAR */
+    .Navleft{
+        
+        font-size: 8px;
+      
+    }
+    .Yozoi{
+        width:40px;
+    }
+    option{
+        font-size:4px
+    }
+
+    .NavRight{
+        font-size: 8px;
+       
+    }
+    .dots{
+        width:50%;
+    }
+    .signup{
+      
+        font-size: 8px ;
+    }
+
+    /* END OF NAVBAR */
+
+    .com1 p{
+        bottom:70px;
+        font-size: 20px;
+    }
+
+    /* END OF COM 1 */
+       
+.black1 {
+    right:40px;
+    width: 50px;
+    height: 20px;
+}
+.c1right{
+    width:40%;
+}
+.c1logobox{
+    right:20px;
+    width:2px;
+    height: 3px;
+    font-size:7px;
+}
+.c1logo{
+    width:20px;
+}
+.c1left{
+    font-size: 6px;
+}
+/* END OF CARD 1 */
+.arrow1{
+    width:60%;
+}
+.black2{
+    right:110px;
+    width: 50px;
+    height: 20px;
+}
+.c2left{
+    width:40%;
+}
+.c2logobox{
+    right:20px;
+    width:2px;
+    height: 3px;
+    bottom:20px;
+    font-size:5px;
+}
+.c2right{
+    font-size: 10px;
+    width:50%;
+}
+.c2logobox img{
+    width:20px;
+}
+
+
+/* END OF CARD 2 */
+.arrow2{
+    width:60%;
+    left:100px;
+}
+.black3{
+    /* right:110px; */
+    width: 50px;
+    height: 20px;
+}
+.c3logoBox{
+    right:20px;
+    width:10px; 
+    height: 3px;
+    bottom:20px;
+    font-size:5px;
+}
+.c3logoBox img{
+    width:20px;
+}
+.c3left{
+    font-size: 5px;
+    width:50%;
+}
+.c2right{
+    width:50%;
+    font-size: 6px;
+}
+/* END OF CARD 3 */
+
+/* CARD 4 */
+.c4boxbackground{
+    flex-direction: column;
+    align-items: center;
+
+}
+.c4img{
+    width:90%
+}
+.c4Box{
+    font-size: 15px;
+    margin-right: 0px;
+    width:50%;
+    margin-bottom: 20px;
+}
+/* CARD 5 */
+.card5{
+    flex-direction: column;
+    align-items: center;
+
+}
+.part1{
+    width:50%;
+}
+.c5box p{
+    font-size: 10px;
+    bottom:30px;
+}
+.b1{
+    font-size:11px;
+}
+.card5part2{
+    flex-direction: column;
+
+}
+.card5part3{
+    flex-direction: column;
+}
+/* END OF CARD 5 */
+
+/* FOOTER */
+.fpart1{
+    font-size: 7px;
+}
+.fpart2 img{
+    margin-top: 20px;
+} 
+.section2 i{
+    font-size: 19px;
+}
+.playstore img{
+    width:25%;
+}
+.limited{
+    font-size: 10px;
+}
+/* END OF FOOTER */
+}
+/* END OF MOBILE SCREEN */
+
+
+
+
+
+
+
+
+
+
+
+
